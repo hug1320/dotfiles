@@ -1,0 +1,8 @@
+term=kitty
+show=drun
+prompt=Apps
+allow_images=true
+insensitive=true
+no_actions=true
+matching=contain
+exec_search=false
