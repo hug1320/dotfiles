@@ -281,6 +281,7 @@ abbr :q exit
 abbr rm rm -I
 abbr py python3
 abbr ksh kitten ssh
+abbr cm chezmoi
 
 # git abbr
 abbr ga git add
