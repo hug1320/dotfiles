@@ -69,8 +69,8 @@
 	    	"spacing": 10
 	},
 	"clock": {
-		"format": "󰅐 {:%R}",
-    "format-alt": "󰅐 {:%R 󰃭 %d/%m/%Y}",
+    "format": "󰅐 {:%R 󰃭 %d/%m/%Y}",
+		"format-alt": "󰅐 {:%R}",
     "on-click-right": "gnome-calendar"
 	},
 	"backlight": {
