@@ -7,7 +7,7 @@ set QT_IM_MODULE fcitx
 set XMODIFIERS @im=fcitx
 
 export VOLTA_HOME="$HOME/.volta"
-export PATH="/usr/bin/vendor_perl/:$VOLTA_HOME/bin:$PATH"
+export PATH="/usr/bin/vendor_perl/:$VOLTA_HOME/bin:$PATH:$HOME/.local/bin/"
 eval $(opam env)
 
 # Edit this .bashrc file
@@ -254,7 +254,7 @@ command -v btop > /dev/null && \
   abbr top 'btop'
 
 # Check needrestart pour arch
-alias needrestart="~/Documents/Bordel/needrestart"
+# alias needrestart="~/Documents/Bordel/needrestart"
 
 #help alias ls
 function hls 

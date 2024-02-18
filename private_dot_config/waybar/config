@@ -3,7 +3,7 @@
 	"height": 50,
   "layer": "top",
 	"modules-left": ["hyprland/workspaces", "custom/notification"],
-	"modules-center": ["custom/notification", "clock"],
+	"modules-center": ["clock"],
 	"modules-right": ["bluetooth", "tray", "network", "backlight", "pulseaudio", "battery", "custom/powermenu"],
 	"hyprland/workspaces": {
 		"disable-scroll": false,
