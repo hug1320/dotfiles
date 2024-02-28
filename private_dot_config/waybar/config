@@ -98,8 +98,8 @@
 		"format-linked": "{ifname} (No IP) ",
 		"format-disconnected": "󰤮 Disconnected",
 		"format-disabled": "󰤮 Disabled",
-		"on-click": "nm-connection-editor",
-    "on-click-right": "kitty nmtui",
+		"on-click": "iwgtk",
+    "on-click-right": "nm-connection-editor",
 		"tooltip-format-wifi": "  {signalStrength}% ⇅ {bandwidthDownBits}/{bandwidthUpBits}"
 	},
 	"pulseaudio": {
