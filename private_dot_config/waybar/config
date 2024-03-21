@@ -3,7 +3,7 @@
 	"height": 50,
   "layer": "top",
 	"modules-left": ["hyprland/workspaces", "custom/notification"],
-	"modules-center": ["clock"],
+	"modules-center": ["idle_inhibitor", "clock"],
 	"modules-right": ["bluetooth", "tray", "network", "backlight", "pulseaudio", "battery", "custom/powermenu"],
 	"hyprland/workspaces": {
 		"disable-scroll": false,
@@ -68,9 +68,16 @@
 	    	"icon-size": 13,
 	    	"spacing": 10
 	},
+  "idle_inhibitor": {
+          "format": "{icon}",
+          "format-icons": {
+              "activated": "󰥔",
+              "deactivated": ""
+         }
+    },
 	"clock": {
-    "format": "󰅐 {:%R 󰃭 %d/%m/%Y}",
-		"format-alt": "󰅐 {:%R}",
+    "format": "{:%R 󰃭 %d/%m/%Y}",
+		"format-alt": "{:%R}",
     "on-click-right": "gnome-calendar"
 	},
 	"backlight": {

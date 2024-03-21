@@ -42,7 +42,7 @@ tooltip {
 	color: #0f0f0f;
 }
 
-.modules-left, #custom-date, #custom-powermenu, #bluetooth, #clock, #battery, #pulseaudio, #network,  #tray, #backlight {
+.modules-left, #custom-date, #custom-powermenu, #bluetooth, #idle_inhibitor, #clock, #battery, #pulseaudio, #network,  #tray, #backlight {
 	background-color: #272a34;
 	padding: 0px 5px;
 	margin: 8px 0px 0px 0px;
@@ -85,10 +85,17 @@ tooltip {
   border-left: 0px;
 }
 
+#idle_inhibitor {
+  color: #cba6f7;
+  border-radius: 50px 0 0 50px;
+  border-right: 0px;
+  padding-left: 20px;
+}
+
 #clock {
   color: #cba6f7;
-  border-radius: 50px;
-  padding-left: 20px;
+  border-left: 0px;
+  border-radius: 0 50px 50px 0;
   padding-right: 20px;
 }
 

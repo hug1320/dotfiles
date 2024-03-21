@@ -246,7 +246,7 @@ command -v lsd > /dev/null && \
 # CAT & LESS
 command -v bat > /dev/null && \
 	alias bat='bat --theme=ansi' && \
-	alias cat='bat --pager=never' && \
+	alias cat='bat -pp' && \
 	alias less='bat'
 
 # TOP
